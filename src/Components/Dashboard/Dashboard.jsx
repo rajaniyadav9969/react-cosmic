@@ -39,8 +39,7 @@ const Dashboard = () => {
 
 
   const getNavbarStatus = (flag) => {
-    // setSignInBut(!flag)
-    // setSignUpBut(flag)
+
   }
   const navbarFlag = createContext();
   const showNavbar = () => {
