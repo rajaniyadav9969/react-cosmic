@@ -1,0 +1,45 @@
+.main-page-header {
+    padding: 0 1rem;
+    border-bottom: 1px solid #2a2e39;
+    .navbar-dark {
+        .navbar-toggler {
+            border-color: unset;
+            color: unset;
+            border: unset;
+            &:focus{
+                box-shadow: none;
+            }
+        }
+    }
+
+    .logo {
+        .responsive-img {
+            max-width: 150px;
+            height: 100%;
+        }
+    }
+    .button-group {
+        @media screen and (max-width: 768px) {
+            margin-top: 8px;
+        }
+        .btn-1,
+        .btn-2 {
+            display: inline-block;
+            color: #fff;
+            border: 1px solid #007bff;
+            border-radius: 5px;
+            padding: 9px 25px;
+            margin-left: 15px;
+            text-decoration: none;
+        }
+        .btn-1 {
+            background: transparent;
+            &:hover {
+                background: #007bff;
+            }
+        }
+        .btn-2 {
+            background: #007bff;
+        }
+    }
+}

@@ -1,0 +1,140 @@
+// .login {
+// font-family: sans-serif;
+// display: flex;
+// align-items: center;
+// justify-content: center;
+// flex-direction: column;
+// gap: 20px;
+// height: 100vh;
+// font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+// background-color: #f8f9fd;
+// font-family: sans-serif;
+// display: flex;
+// align-items: center;
+// justify-content: center;
+// flex-direction: column;
+// gap: 20px;
+// height: 100vh;
+// background-color: #181b24;
+//     color: #fff;
+//     .login-form {
+//         // background-color: white;
+//         // padding: 2rem;
+//         // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+//         padding: 2rem;
+//         box-shadow: 1px 0px 2px 2px #4e4f53;
+//     }
+// }
+.form-signup{
+    height: 90vh !important;
+}
+.form {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 82vh;
+    color: #fff;
+    font-size: 14px;
+
+    @media screen and (max-width: 768px) {
+        height: 76vh;
+    }
+    
+    .form-group {
+        padding: 30px;
+        border-radius: 5px;
+        min-width: 350px;
+        box-shadow: 0 0 10px 0 #131722;
+        border: 1px solid #2a2e39;
+
+        .form-heading {
+            text-align: center;
+            font-size: 22px;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        .forgot-password {
+            display: flex;
+            justify-content: end;
+            padding: 0;
+            text-decoration: none;
+        }
+        .input-group-content {
+            // display: flex;
+            // flex-direction: column;
+            // gap: 8px;
+            // margin: 10px;
+            position: relative;
+            margin-bottom: 1rem;
+            .form-control {
+                // height: 25px;
+                height: 45px;
+                font-size: 14px;
+                background-color: #2a2e39;
+                border: 1px solid #2a2e39;
+                color: #fff;
+            }
+            // input[type="submit"] {
+            //     margin-top: 10px;
+            //     cursor: pointer;
+            //     font-size: 15px;
+            //     background: #01d28e;
+            //     border: 1px solid #01d28e;
+            //     color: #fff;
+            //     padding: 10px 20px;
+            // }
+
+            // input[type="submit"]:hover {
+            //     background: #6cf0c2;
+            // }
+            .admin-pass-hide-show {
+                position: absolute;
+                right: 8px;
+                top: 10px;
+                .eye-icon {
+                    transform: scale(1.5);
+                    cursor: pointer;
+                    color: #0d6efd;
+                }
+            }
+        }
+
+        .button-container {
+            margin-top: 1rem;
+            Button {
+                font-size: 1rem;
+                font-weight: 600;
+            }
+        }
+        .form-check {
+            padding-left: 3rem;
+            .form-check-input:focus {
+                box-shadow: none;
+            }
+            .form-check-label {
+                .term-conditions {
+                    padding-left: 4px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .sign-up {
+        display: flex;
+        margin-top: 1.4rem;
+        font-size: 14px;
+        .sign-up-here {
+            padding: 0;
+            padding-left: 4px;
+            font-weight: 600;
+            text-decoration: none;
+        }
+    }
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
